@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact and Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <!-- Navigation section -->
+    <section class="contact-navigation">
+        <nav>
+            <div class="logo">
+                <a href="index.html">Leghemo</a>
+            </div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="contact">
+            <h2>Contact</h2>
+        </div>
+    </section>
+
+    <!-- Contact forms section -->
+    <section class="contact-forms">
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Contact and Feedback</legend>
+
+                <div>
+                    <label for="firstName">First name:</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last name:</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+
+                <div class="checkbox">
+                    <p>Choose your favorite page:</p>
+                    <div class="radio-btn">
+                        <input type="checkbox" name="fav_page" value="home">
+                        <label for="home">Home</label><br>
+
+                        <input type="checkbox" name="fav_page" value="about">
+                        <label for="css">Contact</label><br>
+
+                        <input type="checkbox" name="fav_page" value="about">
+                        <label for="about">About</label><br>
+
+                        <input type="checkbox" name="fav_page" value="gallery">
+                        <label for="gallery">Gallery</label>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+                <div class="contact-submit">
+                    <button type="submit">Submit</button>
+                </div>
+
+            </fieldset>
+        </form>
+
+        <div class="note">
+            <h4>Note:</h4>
+            <p>
+                Please note that there's no backend implemented currently so in input or forms submitted is not stored so therefore, I will not see your comments and/or feedback at this moment.
+            </p>
+        </div>
+    </section>
+
+    <div class="backtotop">
+        <a href="#navigation">Back to top</a>
+    </div>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <p>Copyright &copy; 2022, Leghemo Precious</p>
+    </footer>
+
+</body>
+</html>
