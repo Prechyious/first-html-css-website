@@ -547,7 +547,7 @@ label[for="comments"] {
         width: fit-content;
         min-height: fit-content;
         z-index: 98;
-        transition: all .5s ease-in;
+        transition: all .6s ease-in;
     }
 
     .nav-links ul li {
@@ -573,6 +573,10 @@ label[for="comments"] {
         font-size: 13px;
     }
 
+    .home-about {
+        margin: 2% 2%;
+    }
+
     .about-info {
         display: block;
     }
@@ -580,7 +584,7 @@ label[for="comments"] {
     .about-info img {
         position: relative;
         top: -10px;
-        left: -25px;
+        left: -15px;
         margin-bottom: 10px;
     }
 
