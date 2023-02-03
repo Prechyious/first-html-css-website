@@ -655,7 +655,7 @@ label[for="comments"] {
 }
 
 /* Larger Displays */
-@media (max-width: 992px) {
+@media (min-width: 992px) {
     nav {
         position: relative;
     }
