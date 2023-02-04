@@ -239,10 +239,11 @@ h2 {
 
 /* Footer section */
 .footer {
-    background: #ca8e524f;
+    background: #ca8d52;
     padding: 0.5% 10%;
     text-align: center;
-    color: #ca8d52;
+    color: #f7cca1b2;
+
 }
 
 /* CONTACT PAGE */
@@ -523,7 +524,7 @@ label[for="comments"] {
     .menu-btn.open .menu-btn-bar {
         transform: translateX(-8px);
         background: transparent;
-        transition: all .5s ease;
+        transition: all .5s ease-in;
     }
 
     .menu-btn.open .menu-btn-bar::before {
@@ -541,7 +542,7 @@ label[for="comments"] {
 
     .nav-links.open {
         display: block;
-        position: fixed;
+        position: absolute;
         top: 50px;
         right: 40px;
         width: fit-content;
@@ -614,6 +615,11 @@ label[for="comments"] {
         margin-top: 15%;
     }
 
+    fieldset {
+        min-width: 300px;
+        padding: 10px 20px;
+    }
+
     form {
         padding: 2% 20%;
     }
@@ -627,7 +633,7 @@ label[for="comments"] {
     }
 
     .radio-btn label {
-        font-size: 13px;
+        font-size: 12px;
         padding-right: 10px;
     }
 
