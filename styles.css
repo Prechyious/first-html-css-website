@@ -612,12 +612,12 @@ label[for="comments"] {
     /* Contact page */
 
     .contact h2 {
-        margin-top: 15%;
+        margin-top: 20%;
     }
 
     fieldset {
-        margin-left: -10px;
-        min-width: 320px;
+        /* margin-right: 10%; */
+        min-width: 300px;
         padding: 10px 20px;
     }
 
@@ -666,7 +666,7 @@ label[for="comments"] {
 
     /* GALLERY PAGE */
     .gallery h1 {
-        margin-top: 15%;
+        margin-top: 20%;
     }
 }
 
@@ -699,6 +699,5 @@ label[for="comments"] {
     fieldset {
         width: 100%;
         margin-top: 10px;
-        margin-left: -20%;
     }
 }
