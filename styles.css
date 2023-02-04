@@ -616,7 +616,8 @@ label[for="comments"] {
     }
 
     fieldset {
-        min-width: 300px;
+        margin-left: -10px;
+        min-width: 320px;
         padding: 10px 20px;
     }
 
@@ -628,8 +629,13 @@ label[for="comments"] {
         font-size: 16px;
     }
 
+    .radio-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
     .radio-btn input {
-        margin: 3px 2px;
+        margin: 3px 1px;
     }
 
     .radio-btn label {
